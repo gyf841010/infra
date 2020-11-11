@@ -5,7 +5,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/fluent/fluent-logger-golang/fluent"
-	"pz_backend/infra/logging/hooks"
+	"github.com/gyf841010/infra/logging/hooks"
 )
 
 var (

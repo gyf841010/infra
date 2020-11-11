@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	. "pz_backend/infra/errorUtil"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/errorUtil"
+	. "github.com/gyf841010/infra/logging"
 )
 
 const (

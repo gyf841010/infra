@@ -4,14 +4,14 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"pz_backend/infra/payUtil/gopay/client"
-	"pz_backend/infra/payUtil/gopay/common"
-	"pz_backend/infra/payUtil/gopay/util"
+	"github.com/gyf841010/infra/payUtil/gopay/client"
+	"github.com/gyf841010/infra/payUtil/gopay/common"
+	"github.com/gyf841010/infra/payUtil/gopay/util"
 	"io/ioutil"
 	"net/http"
 	"sort"
 	"strings"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"encoding/json"
 )
 

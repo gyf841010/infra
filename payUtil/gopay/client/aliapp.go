@@ -12,11 +12,11 @@ import (
 	"sort"
 	"strings"
 	"time"
-	"pz_backend/infra/payUtil/gopay/common"
+	"github.com/gyf841010/infra/payUtil/gopay/common"
 	"crypto/sha1"
 	"crypto/sha256"
 	"github.com/astaxie/beego"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"io/ioutil"
 	"net/http"
 )

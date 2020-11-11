@@ -2,7 +2,7 @@ package database
 
 import (
 	"github.com/jinzhu/gorm"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 )
 
 const IN_BATCH_SIZE = 1000

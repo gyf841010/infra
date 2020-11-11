@@ -2,9 +2,9 @@ package gopay
 
 import (
 	"fmt"
-	"pz_backend/infra/payUtil/gopay/client"
-	"pz_backend/infra/payUtil/gopay/common"
-	"pz_backend/infra/payUtil/gopay/constant"
+	"github.com/gyf841010/infra/payUtil/gopay/client"
+	"github.com/gyf841010/infra/payUtil/gopay/common"
+	"github.com/gyf841010/infra/payUtil/gopay/constant"
 	"net/http"
 	"testing"
 )

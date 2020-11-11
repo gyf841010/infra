@@ -3,7 +3,7 @@ package httpUtil
 import (
 	"bytes"
 	"encoding/json"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"net/http"
 	"io/ioutil"
 	"strings"

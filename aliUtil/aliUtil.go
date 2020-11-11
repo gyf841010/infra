@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"io"
 	"github.com/astaxie/beego"
-	. "pz_backend/infra/errorUtil"
+	. "github.com/infra/errorUtil"
 	"io/ioutil"
-	. "pz_backend/infra/logging"
+	. "github.com/infra/logging"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 )
 

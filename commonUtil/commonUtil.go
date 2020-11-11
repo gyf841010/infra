@@ -7,7 +7,7 @@ import (
 	"github.com/pborman/uuid"
 	"reflect"
 	"strconv"
-	"pz_backend/infra/log"
+	"github.com/gyf841010/infra/log"
 	"time"
 	"math/rand"
 	"crypto/md5"

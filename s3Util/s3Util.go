@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"pz_backend/infra/log"
+	"github.com/gyf841010/infra/log"
 	"io"
 	"io/ioutil"
 	"net/http"

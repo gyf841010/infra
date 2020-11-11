@@ -2,8 +2,8 @@ package session
 
 import (
 	"fmt"
-	"pz_backend/infra/log"
-	"pz_backend/infra/redisUtil"
+	"github.com/gyf841010/infra/log"
+	"github.com/gyf841010/infra/redisUtil"
 	"net/http"
 	"strconv"
 	"sync"

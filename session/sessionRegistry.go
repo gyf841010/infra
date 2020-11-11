@@ -1,8 +1,8 @@
 package session
 
 import (
-	. "pz_backend/infra/logging"
-	"pz_backend/infra/redisUtil"
+	. "github.com/gyf841010/infra/logging"
+	"github.com/gyf841010/infra/redisUtil"
 	"sync"
 )
 

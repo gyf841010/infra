@@ -1,7 +1,7 @@
 package phoneUtil
 
 import (
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"regexp"
 	"strings"
 )

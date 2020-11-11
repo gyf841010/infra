@@ -7,7 +7,7 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"fmt"
-	"pz_backend/infra/payUtil/gopay/common"
+	"github.com/gyf841010/infra/payUtil/gopay/common"
 	"log"
 	"net/url"
 	"sort"

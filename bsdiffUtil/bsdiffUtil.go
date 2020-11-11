@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/hsinhoyeh/binarydist"
-	"pz_backend/infra/fileUtil"
-	"pz_backend/infra/log"
+	"github.com/gyf841010/infra/fileUtil"
+	"github.com/gyf841010/infra/log"
 	"os"
 )
 

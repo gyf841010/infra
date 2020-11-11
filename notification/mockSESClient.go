@@ -1,7 +1,7 @@
 package notification
 import (
 	"github.com/aws/aws-sdk-go/service/ses"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 )
 
 type SESClient interface {

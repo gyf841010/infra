@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"time"
-	"pz_backend/infra/redisUtil"
+	"github.com/gyf841010/infra/redisUtil"
 
 	"github.com/garyburd/redigo/redis"
 )

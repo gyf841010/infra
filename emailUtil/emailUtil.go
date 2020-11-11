@@ -5,9 +5,9 @@ import (
 	"strings"
 	"io/ioutil"
 	"fmt"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"github.com/go-gomail/gomail"
-	"pz_backend/infra/notification"
+	"github.com/gyf841010/infra/notification"
 	"github.com/aws/aws-sdk-go/aws"
 	"net/smtp"
 )

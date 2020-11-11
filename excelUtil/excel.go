@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/tealeg/xlsx"
-	"pz_backend/infra/commonUtil"
+	"github.com/gyf841010/infra/commonUtil"
 )
 
 type ExcelContent struct {

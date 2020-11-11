@@ -10,7 +10,7 @@ import (
 	"gopkg.in/natefinch/lumberjack.v2"
 
 	"github.com/sirupsen/logrus"
-	"pz_backend/infra/logging/hooks"
+	"github.com/gyf841010/infra/logging/hooks"
 )
 
 type LevelPaths map[logrus.Level]string

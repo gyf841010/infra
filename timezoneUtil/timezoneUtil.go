@@ -3,11 +3,11 @@ package timezoneUtil
 import (
 	"fmt"
 	"github.com/astaxie/beego"
-	"pz_backend/infra/httpUtil"
-	. "pz_backend/infra/logging"
+	"github.com/gyf841010/infra/httpUtil"
+	. "github.com/gyf841010/infra/logging"
 	"encoding/json"
-	"pz_backend/infra/geoutil"
-	"pz_backend/infra/timeUtil"
+	"github.com/gyf841010/infra/geoutil"
+	"github.com/gyf841010/infra/timeUtil"
 )
 
 const (

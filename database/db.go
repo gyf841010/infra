@@ -3,8 +3,8 @@ package database
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"pz_backend/infra/log"
-	"pz_backend/infra/logging"
+	"github.com/gyf841010/infra/log"
+	"github.com/gyf841010/infra/logging"
 )
 
 var globalDB *gorm.DB

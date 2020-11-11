@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ses"
 	"github.com/aws/aws-sdk-go/aws"
-	. "pz_backend/infra/logging"
+	. "github.com/gyf841010/infra/logging"
 	"fmt"
 	"errors"
 )

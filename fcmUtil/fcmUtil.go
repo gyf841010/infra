@@ -4,8 +4,8 @@ import (
 	"errors"
 	"github.com/NaySoftware/go-fcm"
 	"github.com/astaxie/beego"
-	. "pz_backend/infra/logging"
-	"pz_backend/infra/timeUtil"
+	. "github.com/gyf841010/infra/logging"
+	"github.com/gyf841010/infra/timeUtil"
 	"strconv"
 	"time"
 )
