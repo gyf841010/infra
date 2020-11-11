@@ -1,6 +1,5 @@
 .idea/
 .vscode/
-*.log
 
 dump.rdb
 
@@ -16,7 +15,6 @@ temp
 
 pz_backend
 
-log/
 lastupdate.tmp
 pz_backend
 swagger/*
