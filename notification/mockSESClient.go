@@ -1,6 +1,8 @@
 package notification
 
 import (
+	. "pz-infra/logging"
+
 	"github.com/aws/aws-sdk-go/service/ses"
 )
 

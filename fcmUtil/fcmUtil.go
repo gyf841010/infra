@@ -25,7 +25,7 @@ func newFcmClient() *fcm.FcmClient {
 	client := fcm.NewFcmClient(apiKey)
 	//client.SetDelayWhileIdle(true)
 	client.SetContentAvailable(true)
-	client.SetPriorety(fcm.Priority_HIGH)
+	//client.SetPriorety(fcm.Priority_HIGH)
 	return client
 }
 

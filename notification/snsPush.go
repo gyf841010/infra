@@ -3,6 +3,7 @@ package notification
 import (
 	"errors"
 	"fmt"
+	. "pz-infra/logging"
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws"

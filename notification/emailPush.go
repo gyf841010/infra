@@ -3,6 +3,7 @@ package notification
 import (
 	"errors"
 	"fmt"
+	. "pz-infra/logging"
 
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"
