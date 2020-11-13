@@ -1,7 +1,7 @@
 package googlePlacesUtil
 
 import (
-	"github.com/gyf841010/pz-infra/log"
+	"pz-infra/log"
 
 	"github.com/astaxie/beego/config"
 )

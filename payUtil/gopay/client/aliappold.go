@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gyf841010/pz-infra/payUtil/gopay/common"
+	"pz-infra/payUtil/gopay/common"
 )
 
 var defaultAliAppOldClient *AliAppOldClient

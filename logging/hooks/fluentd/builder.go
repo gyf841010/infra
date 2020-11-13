@@ -2,8 +2,9 @@ package fluentd
 
 import (
 	"fmt"
-	"github.com/sirupsen/logrus"
+
 	"github.com/astaxie/beego"
+	"github.com/sirupsen/logrus"
 )
 
 const (

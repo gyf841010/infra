@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/gyf841010/pz-infra/log"
+	"pz-infra/log"
 
 	"github.com/astaxie/beego"
 	"github.com/bluele/slack"

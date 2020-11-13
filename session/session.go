@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"sync"
 
-	. "github.com/gyf841010/pz-infra/logging"
+	. "pz-infra/logging"
 
 	"github.com/astaxie/beego"
 )

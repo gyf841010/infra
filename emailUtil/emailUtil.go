@@ -6,8 +6,8 @@ import (
 	"net/smtp"
 	"strings"
 
-	. "github.com/gyf841010/pz-infra/logging"
-	"github.com/gyf841010/pz-infra/notification"
+	. "pz-infra/logging"
+	"pz-infra/notification"
 
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/gyf841010/pz-infra/logging"
+	. "pz-infra/logging"
 )
 
 func PostJson(url string, header map[string]string, body interface{}) ([]byte, error) {

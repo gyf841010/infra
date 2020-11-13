@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	//"yproject/github.com/gyf841010/pz-infra/log"
+	//"yproject/pz-infra/log"
 	gopath "path"
 	"runtime"
 
-	"github.com/gyf841010/pz-infra/log"
+	"pz-infra/log"
 )
 
 func FileHierarchyFind(path string) string {

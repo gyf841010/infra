@@ -10,8 +10,9 @@ import (
 	"runtime"
 	"testing"
 
-	. "github.com/gyf841010/pz-infra/logging"
-	"github.com/gyf841010/pz-infra/tests/base"
+	. "pz-infra/logging"
+	"pz-infra/tests/base"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 

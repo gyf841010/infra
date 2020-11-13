@@ -2,7 +2,6 @@ package notification
 
 import (
 	"github.com/aws/aws-sdk-go/service/sns"
-	. "github.com/gyf841010/pz-infra/logging"
 )
 
 type SnsClient interface {

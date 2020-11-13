@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gyf841010/pz-infra/tests/base"
+	"pz-infra/tests/base"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

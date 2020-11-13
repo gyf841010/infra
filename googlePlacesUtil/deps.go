@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/gyf841010/pz-infra/log"
+	"pz-infra/log"
 )
 
 type googlePlacesResultItem struct {

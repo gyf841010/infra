@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	. "github.com/gyf841010/pz-infra/logging"
-	timeutil "github.com/gyf841010/pz-infra/timeUtil"
+	. "pz-infra/logging"
+	timeutil "pz-infra/timeUtil"
 
 	"github.com/NaySoftware/go-fcm"
 	"github.com/astaxie/beego"
