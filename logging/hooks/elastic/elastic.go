@@ -2,8 +2,9 @@ package elastic
 
 import (
 	"fmt"
-	"github.com/sirupsen/logrus"
+
 	"github.com/astaxie/beego"
+	"github.com/sirupsen/logrus"
 	"github.com/sohlich/elogrus"
 	"gopkg.in/olivere/elastic.v3"
 )

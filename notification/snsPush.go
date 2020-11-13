@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
-	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"encoding/json"
 

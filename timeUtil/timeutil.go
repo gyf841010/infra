@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/gyf841010/github.com/gyf841010/pz-infra/errorUtil"
-	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 const (

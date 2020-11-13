@@ -13,7 +13,7 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/config"
-	"github.com/gyf841010/github.com/gyf841010/pz-infra/log"
+	"github.com/gyf841010/pz-infra/log"
 )
 
 var (
