@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"pz-infra/fileUtil"
-	"pz-infra/log"
+	"github.com/gyf841010/pz-infra/fileUtil"
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/hsinhoyeh/binarydist"
 )

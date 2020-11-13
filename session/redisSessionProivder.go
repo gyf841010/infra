@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"sync"
 
-	"pz-infra/log"
-	"pz-infra/redisUtil"
+	"github.com/gyf841010/pz-infra/log"
+	"github.com/gyf841010/pz-infra/redisUtil"
 )
 
 // redis session store

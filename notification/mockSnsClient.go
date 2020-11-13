@@ -1,7 +1,7 @@
 package notification
 
 import (
-	. "pz-infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"github.com/aws/aws-sdk-go/service/sns"
 )

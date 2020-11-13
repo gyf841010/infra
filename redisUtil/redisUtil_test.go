@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"pz-infra/tests/base"
+	"github.com/gyf841010/pz-infra/tests/base"
 
 	"math/rand"
 

@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"pz-infra/redisUtil"
+	"github.com/gyf841010/pz-infra/redisUtil"
 
 	"github.com/garyburd/redigo/redis"
 )

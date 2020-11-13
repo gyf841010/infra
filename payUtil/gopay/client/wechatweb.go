@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"pz-infra/payUtil/gopay/common"
-	"pz-infra/payUtil/gopay/util"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/common"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/util"
 )
 
 var defaultWechatWebClient *WechatWebClient

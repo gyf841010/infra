@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"pz-infra/payUtil/gopay/client"
-	"pz-infra/payUtil/gopay/common"
-	"pz-infra/payUtil/gopay/constant"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/client"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/common"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/constant"
 )
 
 func TestPay(t *testing.T) {

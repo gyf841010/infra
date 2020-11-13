@@ -1,8 +1,8 @@
 package statUtil
 
 import (
-	. "pz-infra/logging"
-	"pz-infra/redisUtil"
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/redisUtil"
 )
 
 func PushStatData(jsonStr string) {

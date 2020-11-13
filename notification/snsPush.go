@@ -3,8 +3,9 @@ package notification
 import (
 	"errors"
 	"fmt"
-	. "pz-infra/logging"
 	"strings"
+
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"

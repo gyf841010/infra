@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	. "pz-infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 const (

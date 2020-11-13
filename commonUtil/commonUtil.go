@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"pz-infra/log"
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/pborman/uuid"

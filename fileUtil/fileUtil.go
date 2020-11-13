@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"pz-infra/commonUtil"
-	"pz-infra/log"
+	"github.com/gyf841010/pz-infra/commonUtil"
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/astaxie/beego"
 )

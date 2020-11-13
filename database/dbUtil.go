@@ -1,7 +1,7 @@
 package database
 
 import (
-	. "pz-infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"github.com/jinzhu/gorm"
 )
