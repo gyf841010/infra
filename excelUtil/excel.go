@@ -6,7 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gyf841010/pz-infra/commonUtil"
+	"pz-infra/commonUtil"
+
 	"github.com/tealeg/xlsx"
 )
 

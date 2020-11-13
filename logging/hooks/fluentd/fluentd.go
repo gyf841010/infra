@@ -3,8 +3,9 @@ package fluentd
 import (
 	"fmt"
 
+	"pz-infra/logging/hooks"
+
 	"github.com/fluent/fluent-logger-golang/fluent"
-	"github.com/gyf841010/pz-infra/logging/hooks"
 	"github.com/sirupsen/logrus"
 )
 

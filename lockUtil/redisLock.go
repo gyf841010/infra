@@ -1,12 +1,13 @@
 package lockUtil
 
 import (
-	"github.com/gyf841010/pz-infra/log"
-	"github.com/gyf841010/pz-infra/redisUtil"
+	"pz-infra/log"
+	"pz-infra/redisUtil"
 	"time"
 
+	"pz-infra/redsync"
+
 	"github.com/garyburd/redigo/redis"
-	"github.com/gyf841010/pz-infra/redsync"
 )
 
 func GetLockerAndLock(name string, expiry ...time.Duration) (redsync.Locker, error) {

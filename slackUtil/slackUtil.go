@@ -2,10 +2,11 @@ package slackUtil
 
 import (
 	"fmt"
+	"net"
+	"pz-infra/log"
+
 	"github.com/astaxie/beego"
 	"github.com/bluele/slack"
-	"github.com/gyf841010/pz-infra/log"
-	"net"
 )
 
 func SendMessage(message string) {

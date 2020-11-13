@@ -1,10 +1,11 @@
 package session
 
 import (
-	"github.com/astaxie/beego"
-	. "github.com/gyf841010/pz-infra/logging"
 	"net/http"
+	. "pz-infra/logging"
 	"sync"
+
+	"github.com/astaxie/beego"
 )
 
 // SessionStore contains all data for one session process with specific id.

@@ -7,17 +7,18 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
-	"github.com/gyf841010/pz-infra/log"
-	"github.com/pborman/uuid"
 	"io"
 	"io/ioutil"
 	"math/rand"
 	"net"
+	"pz-infra/log"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
+	"github.com/pborman/uuid"
 )
 
 func UUID() string {

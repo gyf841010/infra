@@ -1,7 +1,7 @@
 package database
 
 import (
-	. "github.com/gyf841010/pz-infra/logging"
+	. "pz-infra/logging"
 	"reflect"
 )
 

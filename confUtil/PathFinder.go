@@ -3,9 +3,10 @@ package confUtil
 import (
 	"os"
 	"path/filepath"
-	//"yproject/github.com/gyf841010/pz-infra/log"
-	"github.com/gyf841010/pz-infra/log"
+
+	//"yproject/pz-infra/log"
 	gopath "path"
+	"pz-infra/log"
 	"runtime"
 )
 

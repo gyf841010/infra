@@ -2,10 +2,10 @@ package corpusUtil
 
 import (
 	"encoding/json"
-	"github.com/gyf841010/pz-infra/baseUtil"
-	"github.com/gyf841010/pz-infra/commonUtil"
-	"github.com/gyf841010/pz-infra/httpUtil"
-	. "github.com/gyf841010/pz-infra/logging"
+	"pz-infra/baseUtil"
+	"pz-infra/commonUtil"
+	"pz-infra/httpUtil"
+	. "pz-infra/logging"
 )
 
 const (

@@ -2,13 +2,14 @@ package logging
 
 import (
 	"fmt"
-	"github.com/astaxie/beego"
-	"github.com/gyf841010/pz-infra/logging/hooks/fluentd"
-	"github.com/gyf841010/pz-infra/logging/hooks/rolling"
-	"github.com/sirupsen/logrus"
 	"os"
+	"pz-infra/logging/hooks/fluentd"
+	"pz-infra/logging/hooks/rolling"
 	"sort"
 	"sync"
+
+	"github.com/astaxie/beego"
+	"github.com/sirupsen/logrus"
 )
 
 const (

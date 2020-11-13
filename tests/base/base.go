@@ -4,12 +4,13 @@ import (
 	"io/ioutil"
 	"strings"
 
+	"pz-infra/confUtil"
+	"pz-infra/database"
+	"pz-infra/log"
+	. "pz-infra/logging"
+
 	"github.com/astaxie/beego"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gyf841010/pz-infra/confUtil"
-	"github.com/gyf841010/pz-infra/database"
-	"github.com/gyf841010/pz-infra/log"
-	. "github.com/gyf841010/pz-infra/logging"
 	"github.com/jinzhu/gorm"
 	_ "github.com/ziutek/mymysql/native" // Native engine
 )

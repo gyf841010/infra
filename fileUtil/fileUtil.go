@@ -5,15 +5,16 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"github.com/astaxie/beego"
-	"github.com/gyf841010/pz-infra/commonUtil"
-	"github.com/gyf841010/pz-infra/log"
 	"io"
 	"os"
+	"pz-infra/commonUtil"
+	"pz-infra/log"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/astaxie/beego"
 )
 
 var fileTypeMap sync.Map

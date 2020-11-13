@@ -3,10 +3,11 @@ package bsdiffUtil
 import (
 	"errors"
 	"fmt"
-	"github.com/gyf841010/pz-infra/fileUtil"
-	"github.com/gyf841010/pz-infra/log"
-	"github.com/hsinhoyeh/binarydist"
 	"os"
+	"pz-infra/fileUtil"
+	"pz-infra/log"
+
+	"github.com/hsinhoyeh/binarydist"
 )
 
 //生成差分包patchFile

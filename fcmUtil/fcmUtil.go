@@ -2,12 +2,13 @@ package fcmUtil
 
 import (
 	"errors"
-	"github.com/NaySoftware/go-fcm"
-	"github.com/astaxie/beego"
-	. "github.com/gyf841010/pz-infra/logging"
-	"github.com/gyf841010/pz-infra/timeUtil"
+	. "pz-infra/logging"
+	timeutil "pz-infra/timeUtil"
 	"strconv"
 	"time"
+
+	"github.com/NaySoftware/go-fcm"
+	"github.com/astaxie/beego"
 )
 
 const (

@@ -2,9 +2,10 @@ package timezoneUtil
 
 import (
 	"fmt"
-	"github.com/gyf841010/pz-infra/tests/base"
-	. "github.com/smartystreets/goconvey/convey"
+	"pz-infra/tests/base"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func prepare() {

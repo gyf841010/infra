@@ -2,14 +2,15 @@ package emailUtil
 
 import (
 	"fmt"
+	"io/ioutil"
+	"net/smtp"
+	. "pz-infra/logging"
+	"pz-infra/notification"
+	"strings"
+
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/go-gomail/gomail"
-	. "github.com/gyf841010/pz-infra/logging"
-	"github.com/gyf841010/pz-infra/notification"
-	"io/ioutil"
-	"net/smtp"
-	"strings"
 )
 
 const (

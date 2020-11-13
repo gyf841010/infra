@@ -8,9 +8,9 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"fmt"
-	"github.com/gyf841010/pz-infra/payUtil/gopay/common"
 	"log"
 	"net/url"
+	"pz-infra/payUtil/gopay/common"
 	"sort"
 	"strings"
 )

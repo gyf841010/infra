@@ -3,17 +3,18 @@ package s3Util
 import (
 	"bytes"
 	"errors"
+	"io"
+	"io/ioutil"
+	"net/http"
+	"os"
+	"pz-infra/log"
+	"strings"
+
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/gyf841010/pz-infra/log"
-	"io"
-	"io/ioutil"
-	"net/http"
-	"os"
-	"strings"
 )
 
 type UploadFileContentInput struct {
