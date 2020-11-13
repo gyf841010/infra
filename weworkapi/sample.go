@@ -3,7 +3,8 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
-	"rent_car_backend/infra_wechat/wxbizmsgcrypt"
+
+	"github.com/gyf841010/pz-infra/weworkapi/wxbizmsgcrypt"
 )
 
 type MsgContent struct {
