@@ -1,8 +1,9 @@
 package database
 
 import (
-	. "pz-infra/logging"
 	"reflect"
+
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 func SaveModelWithChan(t interface{}, isCreate bool, ch chan error) error {

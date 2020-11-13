@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"pz-infra/encryptUtil"
-	. "pz-infra/errorUtil"
-	. "pz-infra/logging"
-	"pz-infra/slackUtil"
+	"github.com/gyf841010/pz-infra/encryptUtil"
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/slackUtil"
 
 	"github.com/astaxie/beego"
 	"github.com/garyburd/redigo/redis"

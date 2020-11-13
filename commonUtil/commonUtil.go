@@ -11,11 +11,12 @@ import (
 	"io/ioutil"
 	"math/rand"
 	"net"
-	"pz-infra/log"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/pborman/uuid"

@@ -7,8 +7,9 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
-	"pz-infra/log"
 	"strings"
+
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"

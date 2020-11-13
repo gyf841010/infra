@@ -2,11 +2,12 @@ package timeutil
 
 import (
 	"fmt"
-	. "github.com/gyf841010/pz-infra/errorUtil"
-	. "github.com/gyf841010/pz-infra/logging"
 	"strconv"
 	"strings"
 	"time"
+
+	. "github.com/gyf841010/github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
 )
 
 const (

@@ -2,8 +2,9 @@ package session
 
 import (
 	"net/http"
-	. "pz-infra/logging"
 	"sync"
+
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"github.com/astaxie/beego"
 )

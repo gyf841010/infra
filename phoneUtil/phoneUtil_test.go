@@ -5,7 +5,7 @@ import (
 
 	"fmt"
 
-	"pz-infra/tests/base"
+	"github.com/gyf841010/pz-infra/tests/base"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

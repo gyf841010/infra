@@ -6,8 +6,9 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
-	. "pz-infra/errorUtil"
-	. "pz-infra/logging"
+
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/astaxie/beego"

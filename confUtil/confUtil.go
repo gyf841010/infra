@@ -4,15 +4,16 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/config"
-	"github.com/gyf841010/pz-infra/log"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
 	"text/template"
+
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/config"
+	"github.com/gyf841010/github.com/gyf841010/pz-infra/log"
 )
 
 var (

@@ -5,11 +5,12 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"encoding/json"
-	. "github.com/gyf841010/pz-infra/logging"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
+
+	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
 )
 
 func PostJson(url string, header map[string]string, body interface{}) ([]byte, error) {

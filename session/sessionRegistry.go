@@ -1,9 +1,10 @@
 package session
 
 import (
-	. "pz-infra/logging"
-	"pz-infra/redisUtil"
 	"sync"
+
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/redisUtil"
 )
 
 const (

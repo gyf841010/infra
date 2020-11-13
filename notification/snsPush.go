@@ -3,12 +3,14 @@ package notification
 import (
 	"errors"
 	"fmt"
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/sns"
-	. "github.com/gyf841010/pz-infra/logging"
 	"strings"
 
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/sns"
+	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
+
 	"encoding/json"
+
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"

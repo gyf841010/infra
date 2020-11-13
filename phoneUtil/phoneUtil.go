@@ -1,9 +1,10 @@
 package phoneUtil
 
 import (
-	. "pz-infra/logging"
 	"regexp"
 	"strings"
+
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 const (

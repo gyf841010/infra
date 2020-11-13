@@ -9,7 +9,7 @@ import (
 
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"pz-infra/logging/hooks"
+	"github.com/gyf841010/pz-infra/logging/hooks"
 
 	"github.com/sirupsen/logrus"
 )

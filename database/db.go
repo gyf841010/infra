@@ -2,8 +2,8 @@ package database
 
 import (
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gyf841010/pz-infra/log"
-	"github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/github.com/gyf841010/pz-infra/log"
+	"github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
 	"github.com/jinzhu/gorm"
 )
 

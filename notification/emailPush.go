@@ -3,12 +3,13 @@ package notification
 import (
 	"errors"
 	"fmt"
+
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ses"
-	. "github.com/gyf841010/pz-infra/logging"
+	. "github.com/gyf841010/github.com/gyf841010/pz-infra/logging"
 )
 
 const (

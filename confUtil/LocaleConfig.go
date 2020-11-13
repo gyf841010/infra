@@ -1,12 +1,12 @@
 package confUtil
 
 import (
-	//"yproject/pz-infra/log"
+	//"yproject/github.com/gyf841010/pz-infra/log"
 
 	//"github.com/astaxie/beego"
 	//"github.com/beego/i18n"
 	//"github.com/go-sql-driver/mysql"
-	"pz-infra/log"
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/astaxie/beego"
 	"github.com/beego/i18n"

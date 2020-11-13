@@ -7,11 +7,12 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"pz-infra/payUtil/gopay/common"
-	"pz-infra/payUtil/gopay/util"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/gyf841010/pz-infra/payUtil/gopay/common"
+	"github.com/gyf841010/pz-infra/payUtil/gopay/util"
 )
 
 var defaultWechatWebClient *WechatWebClient

@@ -3,10 +3,11 @@ package timezoneUtil
 import (
 	"encoding/json"
 	"fmt"
-	"pz-infra/geoutil"
-	"pz-infra/httpUtil"
-	. "pz-infra/logging"
-	timeutil "pz-infra/timeUtil"
+
+	"github.com/gyf841010/pz-infra/geoutil"
+	"github.com/gyf841010/pz-infra/httpUtil"
+	. "github.com/gyf841010/pz-infra/logging"
+	timeutil "github.com/gyf841010/pz-infra/timeUtil"
 
 	"github.com/astaxie/beego"
 )

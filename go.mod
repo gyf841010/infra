@@ -1,4 +1,4 @@
-module pz-infra
+module github.com/gyf841010/pz-infra
 
 go 1.13
 
@@ -7,7 +7,7 @@ require (
 	github.com/Unknwon/goconfig v0.0.0-20200908083735-df7de6a44db8 // indirect
 	github.com/aliyun/aliyun-oss-go-sdk v2.1.4+incompatible
 	github.com/astaxie/beego v1.12.3
-	github.com/aws/aws-sdk-go v1.35.27
+	github.com/aws/aws-sdk-go v1.29.11
 	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/beego/i18n v0.0.0-20161101132742-e9308947f407
 	github.com/bluele/slack v0.0.0-20180528010058-b4b4d354a079
@@ -15,18 +15,17 @@ require (
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fluent/fluent-logger-golang v1.5.0
-	github.com/fsnotify/fsnotify v1.4.9
+	github.com/fsnotify/fsnotify v1.4.7
 	github.com/garyburd/redigo v1.6.2
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/gyf841010/pz-infra v0.0.0-20201113112851-b14a22cd1cef
 	github.com/hjr265/redsync.go v0.0.0-20160719150818-688f6d364b79
 	github.com/hsinhoyeh/binarydist v0.0.0-20140819060055-20248b8da9ec
 	github.com/hsinhoyeh/gobzip v0.0.0-20180116012146-6428c5b6c0a4 // indirect
 	github.com/jinzhu/gorm v1.9.16
 	github.com/pborman/uuid v1.2.1
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.4.2
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/sohlich/elogrus v2.0.2+incompatible
 	github.com/spf13/viper v1.7.1

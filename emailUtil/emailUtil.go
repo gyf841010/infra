@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/smtp"
-	. "pz-infra/logging"
-	"pz-infra/notification"
 	"strings"
+
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/notification"
 
 	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"

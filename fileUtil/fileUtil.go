@@ -7,12 +7,13 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"pz-infra/commonUtil"
-	"pz-infra/log"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/gyf841010/pz-infra/commonUtil"
+	"github.com/gyf841010/pz-infra/log"
 
 	"github.com/astaxie/beego"
 )

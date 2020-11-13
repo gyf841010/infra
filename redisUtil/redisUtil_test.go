@@ -1,9 +1,10 @@
 package redisUtil
 
 import (
-	"pz-infra/tests/base"
 	"testing"
 	"time"
+
+	"github.com/gyf841010/pz-infra/tests/base"
 
 	"math/rand"
 
