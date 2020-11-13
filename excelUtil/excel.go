@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/gyf841010/pz-infra/commonUtil"
 	"github.com/tealeg/xlsx"
-	"github.com/gyf841010/infra/commonUtil"
 )
 
 type ExcelContent struct {

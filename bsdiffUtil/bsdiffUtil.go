@@ -3,9 +3,9 @@ package bsdiffUtil
 import (
 	"errors"
 	"fmt"
+	"github.com/gyf841010/pz-infra/fileUtil"
+	"github.com/gyf841010/pz-infra/log"
 	"github.com/hsinhoyeh/binarydist"
-	"github.com/gyf841010/infra/fileUtil"
-	"github.com/gyf841010/infra/log"
 	"os"
 )
 

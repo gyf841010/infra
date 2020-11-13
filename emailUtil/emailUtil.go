@@ -1,19 +1,19 @@
 package emailUtil
 
 import (
-	"github.com/astaxie/beego"
-	"strings"
-	"io/ioutil"
 	"fmt"
-	. "github.com/gyf841010/infra/logging"
-	"github.com/go-gomail/gomail"
-	"github.com/gyf841010/infra/notification"
+	"github.com/astaxie/beego"
 	"github.com/aws/aws-sdk-go/aws"
+	"github.com/go-gomail/gomail"
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/notification"
+	"io/ioutil"
 	"net/smtp"
+	"strings"
 )
 
 const (
-	CONTENT_TYPE_HTML = "text/html"
+	CONTENT_TYPE_HTML  = "text/html"
 	CONTENT_TYPE_PLAIN = "text/plain"
 )
 
@@ -104,10 +104,10 @@ func SendEmailSmtp(templateName string, content map[string]string, receiver *Ema
 
 func getSender() *EmailSender {
 	sender := EmailSender{
-		User: beego.AppConfig.String("email_user"),
+		User:     beego.AppConfig.String("email_user"),
 		Password: beego.AppConfig.String("email_pwd"),
-		SmtpUrl: beego.AppConfig.String("email_smtp_url"),
-		Name: beego.AppConfig.String("email_name"),
+		SmtpUrl:  beego.AppConfig.String("email_smtp_url"),
+		Name:     beego.AppConfig.String("email_name"),
 	}
 	sender.SmtpPort, _ = beego.AppConfig.Int("email_smtp_port")
 	return &sender

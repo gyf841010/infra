@@ -2,14 +2,14 @@ package aliUtil
 
 import (
 	"bytes"
-	"os"
-	"net/http"
-	"io"
-	"github.com/astaxie/beego"
-	. "github.com/gyf841010/infra/errorUtil"
-	"io/ioutil"
-	. "github.com/gyf841010/infra/logging"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	"github.com/astaxie/beego"
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
+	"io"
+	"io/ioutil"
+	"net/http"
+	"os"
 )
 
 type BaseUrlAndEndPoint struct {

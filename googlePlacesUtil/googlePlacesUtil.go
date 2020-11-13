@@ -2,7 +2,7 @@ package googlePlacesUtil
 
 import (
 	"github.com/astaxie/beego/config"
-	"github.com/gyf841010/infra/log"
+	"github.com/gyf841010/pz-infra/log"
 )
 
 var defaultApiKey string

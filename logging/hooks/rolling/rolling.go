@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/natefinch/lumberjack.v2"
 
+	"github.com/gyf841010/pz-infra/logging/hooks"
 	"github.com/sirupsen/logrus"
-	"github.com/gyf841010/infra/logging/hooks"
 )
 
 type LevelPaths map[logrus.Level]string

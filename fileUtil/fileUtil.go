@@ -3,17 +3,17 @@ package fileUtil
 import (
 	"bytes"
 	"crypto/md5"
+	"encoding/hex"
 	"fmt"
-	"github.com/gyf841010/infra/log"
+	"github.com/astaxie/beego"
+	"github.com/gyf841010/pz-infra/commonUtil"
+	"github.com/gyf841010/pz-infra/log"
 	"io"
 	"os"
-	"strings"
-	"github.com/gyf841010/infra/commonUtil"
-	"encoding/hex"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
-	"github.com/astaxie/beego"
 )
 
 var fileTypeMap sync.Map
@@ -197,7 +197,7 @@ func GetFileType(fSrc []byte) string {
 	return fileType
 }
 
-func GetFileKey(fSrc []byte) (string) {
+func GetFileKey(fSrc []byte) string {
 	datePrefix, _ := beego.AppConfig.Bool("datePrefixFlag")
 	fileType := GetFileType(fSrc)
 	if fileType == "" {

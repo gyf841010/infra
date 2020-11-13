@@ -1,37 +1,39 @@
 package notification
+
 import (
+	"errors"
+	"fmt"
 	"github.com/astaxie/beego"
+	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ses"
-	"github.com/aws/aws-sdk-go/aws"
-	. "github.com/gyf841010/infra/logging"
-	"fmt"
-	"errors"
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 const (
-	_SES_ACCESS_KEY 				   = "sesAccessKey"
-	_SES_SECRET_KEY                    = "sesSecretKey"
-	_SES_REGION                        = "sesRegion"
+	_SES_ACCESS_KEY = "sesAccessKey"
+	_SES_SECRET_KEY = "sesSecretKey"
+	_SES_REGION     = "sesRegion"
 )
 
 type Email struct {
 	*Destination
 	*Message
-	Source	*string
+	Source *string
 }
 
 type Destination struct {
-	BccAddresses	[]*string
-	CcAddresses		[]*string
-	ToAddresses		[]*string
+	BccAddresses []*string
+	CcAddresses  []*string
+	ToAddresses  []*string
 }
 
 type Message struct {
-	Subject	*Content
-	Body  	*Body
+	Subject *Content
+	Body    *Body
 }
+
 // Represents the body of the message. You can specify text, HTML, or both.
 // If you use both, then the message should display correctly in the widest
 // variety of email clients.
@@ -39,17 +41,18 @@ type Body struct {
 	Html *Content
 	Text *Content
 }
+
 // Represents textual data, plus an optional character set specification.
 // By default, the text must be 7-bit ASCII, due to the constraints of the
 // SMTP protocol. If the text must contain any other characters, then you must
 // also specify a character set. Examples include UTF-8, ISO-8859-1, and Shift_JIS.
 type Content struct {
 	Charset *string
-	Data 	*string
+	Data    *string
 }
 
 func SendEmail(email *Email) error {
-	if email == nil || email.Destination == nil || email.Message == nil || email.Source == nil{
+	if email == nil || email.Destination == nil || email.Message == nil || email.Source == nil {
 		return errors.New("invalidate parameter")
 	}
 	if len(email.Destination.ToAddresses) == 0 {
@@ -73,8 +76,8 @@ func SendEmail(email *Email) error {
 	input := &ses.SendEmailInput{
 		Destination: &ses.Destination{ // Required
 			BccAddresses: email.Destination.BccAddresses,
-			CcAddresses: email.Destination.CcAddresses,
-			ToAddresses: email.Destination.ToAddresses,
+			CcAddresses:  email.Destination.CcAddresses,
+			ToAddresses:  email.Destination.ToAddresses,
 		},
 		Message: &ses.Message{ // Required
 			Body: &ses.Body{ // Required
@@ -84,16 +87,16 @@ func SendEmail(email *Email) error {
 				Charset: email.Subject.Charset,
 			},
 		},
-		Source:email.Source,
+		Source: email.Source,
 	}
 	if email.Body.Html != nil {
-		input.Message.Body.Html= &ses.Content{// Required
+		input.Message.Body.Html = &ses.Content{ // Required
 			Data:    email.Body.Html.Data, // Required
 			Charset: email.Body.Html.Charset,
 		}
 	}
 	if email.Body.Text != nil {
-		input.Message.Body.Text=  &ses.Content{// Required
+		input.Message.Body.Text = &ses.Content{ // Required
 			Data:    email.Body.Text.Data, // Required
 			Charset: email.Body.Text.Charset,
 		}
@@ -104,7 +107,7 @@ func SendEmail(email *Email) error {
 		Log.Error("send email failed", WithError(err))
 		return err
 	}
-	Log.Debug("Send email successfully",With("email", email))
+	Log.Debug("Send email successfully", With("email", email))
 	return nil
 }
 
@@ -112,12 +115,11 @@ var cbSendEmail = func(sesClient SESClient, input *ses.SendEmailInput) (*ses.Sen
 	return sesClient.SendEmail(input)
 }
 
-
 func createSESClient() (SESClient, error) {
 	isMockSes := beego.AppConfig.String("isMockSes")
-	if isMockSes == "true"{
+	if isMockSes == "true" {
 		Log.Info("use mock SES client")
-		return &MockSESClient{},nil
+		return &MockSESClient{}, nil
 	}
 	accessKey := beego.AppConfig.String(_SES_ACCESS_KEY)
 	secretKey := beego.AppConfig.String(_SES_SECRET_KEY)

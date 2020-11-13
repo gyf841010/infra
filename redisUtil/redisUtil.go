@@ -11,10 +11,10 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/garyburd/redigo/redis"
-	"github.com/gyf841010/infra/encryptUtil"
-	. "github.com/gyf841010/infra/logging"
-	"github.com/gyf841010/infra/slackUtil"
-	. "github.com/gyf841010/infra/errorUtil"
+	"github.com/gyf841010/pz-infra/encryptUtil"
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/slackUtil"
 )
 
 var pool *redis.Pool

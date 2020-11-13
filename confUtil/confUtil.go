@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/config"
-	"github.com/gyf841010/infra/log"
+	"github.com/gyf841010/pz-infra/log"
 	"io/ioutil"
 	"os"
 	"path"

@@ -1,10 +1,10 @@
 package pushUtil
 
 import (
-	. "github.com/gyf841010/infra/logging"
-	"github.com/gyf841010/infra/baseUtil"
-	"github.com/gyf841010/infra/errorUtil"
-	"github.com/gyf841010/infra/httpUtil"
+	"github.com/gyf841010/pz-infra/baseUtil"
+	"github.com/gyf841010/pz-infra/errorUtil"
+	"github.com/gyf841010/pz-infra/httpUtil"
+	. "github.com/gyf841010/pz-infra/logging"
 )
 
 const (

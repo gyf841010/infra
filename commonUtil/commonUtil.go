@@ -1,23 +1,23 @@
 package commonUtil
 
 import (
+	"bytes"
+	"crypto/md5"
+	"crypto/rsa"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/dgrijalva/jwt-go"
+	"github.com/gyf841010/pz-infra/log"
 	"github.com/pborman/uuid"
+	"io"
+	"io/ioutil"
+	"math/rand"
+	"net"
 	"reflect"
 	"strconv"
-	"github.com/gyf841010/infra/log"
-	"time"
-	"math/rand"
-	"crypto/md5"
-	"io"
-	"bytes"
-	"crypto/rsa"
-	"io/ioutil"
-	"github.com/dgrijalva/jwt-go"
 	"strings"
-	"net"
+	"time"
 )
 
 func UUID() string {
@@ -70,7 +70,7 @@ func ToJSON(object interface{}) (string, error) {
 
 // @return slice with the element at idx removed.
 // panics if slice is not of Kind reflect.Slice
-func DeleteSliceIndex(slice interface{}, idx int) (interface{}) {
+func DeleteSliceIndex(slice interface{}, idx int) interface{} {
 	v := reflect.ValueOf(slice)
 	if v.Kind() != reflect.Slice {
 

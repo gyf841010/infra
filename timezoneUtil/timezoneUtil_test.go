@@ -2,7 +2,7 @@ package timezoneUtil
 
 import (
 	"fmt"
-	"github.com/gyf841010/infra/tests/base"
+	"github.com/gyf841010/pz-infra/tests/base"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )

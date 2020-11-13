@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
-	. "github.com/gyf841010/infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 	"strings"
 
 	"encoding/json"
@@ -263,7 +263,7 @@ func GetSnsEndpointArn(platform, platformPushToken string) (string, error) {
 	}
 	resp, err := createPlatformEndpoint(&sns.CreatePlatformEndpointInput{
 		PlatformApplicationArn: aws.String(platformArn),
-		Token: aws.String(platformPushToken),
+		Token:                  aws.String(platformPushToken),
 	})
 	if err != nil {
 		Log.Error("create platform endpoint failed.", With("platform", platform), With("token", platformPushToken), WithError(err))

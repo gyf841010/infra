@@ -2,13 +2,13 @@ package httpUtil
 
 import (
 	"bytes"
-	"encoding/json"
-	. "github.com/gyf841010/infra/logging"
-	"net/http"
-	"io/ioutil"
-	"strings"
-	"crypto/x509"
 	"crypto/tls"
+	"crypto/x509"
+	"encoding/json"
+	. "github.com/gyf841010/pz-infra/logging"
+	"io/ioutil"
+	"net/http"
+	"strings"
 	"time"
 )
 

@@ -6,11 +6,11 @@ import (
 
 	"github.com/astaxie/beego"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/gyf841010/pz-infra/confUtil"
+	"github.com/gyf841010/pz-infra/database"
+	"github.com/gyf841010/pz-infra/log"
+	. "github.com/gyf841010/pz-infra/logging"
 	"github.com/jinzhu/gorm"
-	"github.com/gyf841010/infra/confUtil"
-	"github.com/gyf841010/infra/database"
-	"github.com/gyf841010/infra/log"
-	. "github.com/gyf841010/infra/logging"
 	_ "github.com/ziutek/mymysql/native" // Native engine
 )
 

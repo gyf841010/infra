@@ -1,14 +1,14 @@
 package confUtil
 
 import (
-	//"yproject/github.com/gyf841010/infra/log"
+	//"yproject/github.com/gyf841010/pz-infra/log"
 
 	//"github.com/astaxie/beego"
 	//"github.com/beego/i18n"
 	//"github.com/go-sql-driver/mysql"
 	"github.com/astaxie/beego"
 	"github.com/beego/i18n"
-	"github.com/gyf841010/infra/log"
+	"github.com/gyf841010/pz-infra/log"
 )
 
 func LoadLocaleConfig() {

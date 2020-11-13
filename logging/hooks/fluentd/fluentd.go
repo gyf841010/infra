@@ -3,9 +3,9 @@ package fluentd
 import (
 	"fmt"
 
-	"github.com/sirupsen/logrus"
 	"github.com/fluent/fluent-logger-golang/fluent"
-	"github.com/gyf841010/infra/logging/hooks"
+	"github.com/gyf841010/pz-infra/logging/hooks"
+	"github.com/sirupsen/logrus"
 )
 
 var (

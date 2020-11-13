@@ -5,8 +5,8 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"errors"
+	"github.com/gyf841010/pz-infra/redisUtil"
 	"time"
-	"github.com/gyf841010/infra/redisUtil"
 
 	"github.com/garyburd/redigo/redis"
 )

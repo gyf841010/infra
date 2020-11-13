@@ -2,7 +2,7 @@ package session
 
 import (
 	"github.com/astaxie/beego"
-	. "github.com/gyf841010/infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
 	"net/http"
 	"sync"
 )

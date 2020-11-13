@@ -3,8 +3,8 @@ package staticMapUtil
 import (
 	"fmt"
 	"github.com/astaxie/beego"
-	"github.com/gyf841010/infra/geoutil"
-	. "github.com/gyf841010/infra/logging"
+	"github.com/gyf841010/pz-infra/geoutil"
+	. "github.com/gyf841010/pz-infra/logging"
 	"github.com/twpayne/go-polyline"
 	"io/ioutil"
 	"math"

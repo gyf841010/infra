@@ -19,7 +19,7 @@ require (
 	github.com/garyburd/redigo v1.6.2
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/gyf841010/infra v0.0.0-20201112064103-698a914539ca
+	github.com/gyf841010/pz-infra v0.0.0-20201112064103-698a914539ca
 	github.com/gyf841010/pz-infra v0.0.0-20201112064103-698a914539ca
 	github.com/hjr265/redsync.go v0.0.0-20160719150818-688f6d364b79
 	github.com/hsinhoyeh/binarydist v0.0.0-20140819060055-20248b8da9ec

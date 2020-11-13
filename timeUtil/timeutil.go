@@ -2,11 +2,11 @@ package timeutil
 
 import (
 	"fmt"
+	. "github.com/gyf841010/pz-infra/errorUtil"
+	. "github.com/gyf841010/pz-infra/logging"
 	"strconv"
 	"strings"
 	"time"
-	. "github.com/gyf841010/infra/errorUtil"
-	. "github.com/gyf841010/infra/logging"
 )
 
 const (
@@ -109,7 +109,7 @@ func GetTimestampByStatDate(statDate string, loc *time.Location) (int, error) {
 	d := statDate[6:8]
 
 	dateStr := fmt.Sprintf("%s-%s-%s 00:00:00", y, m, d)
-	t, err := time.ParseInLocation(TIME_FORMAT, dateStr, loc);
+	t, err := time.ParseInLocation(TIME_FORMAT, dateStr, loc)
 	if err != nil {
 		return 0, err
 	}
@@ -214,7 +214,7 @@ func FormatTimeToStringWithZone(t time.Time) string {
 	return tmpStr
 }
 
-func ConvertTimeInLocation(t time.Time, locs ... *time.Location) time.Time {
+func ConvertTimeInLocation(t time.Time, locs ...*time.Location) time.Time {
 	if len(locs) > 0 {
 		return t.In(locs[0])
 	}

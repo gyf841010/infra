@@ -1,7 +1,7 @@
 package redisUtil
 
 import (
-	"github.com/gyf841010/infra/tests/base"
+	"github.com/gyf841010/pz-infra/tests/base"
 	"testing"
 	"time"
 

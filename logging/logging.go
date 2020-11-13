@@ -2,10 +2,10 @@ package logging
 
 import (
 	"fmt"
-	"github.com/sirupsen/logrus"
 	"github.com/astaxie/beego"
-	"github.com/gyf841010/infra/logging/hooks/fluentd"
-	"github.com/gyf841010/infra/logging/hooks/rolling"
+	"github.com/gyf841010/pz-infra/logging/hooks/fluentd"
+	"github.com/gyf841010/pz-infra/logging/hooks/rolling"
+	"github.com/sirupsen/logrus"
 	"os"
 	"sort"
 	"sync"

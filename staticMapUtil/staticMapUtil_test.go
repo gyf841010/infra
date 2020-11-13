@@ -2,7 +2,8 @@ package staticMapUtil
 
 import (
 	"bytes"
-	. "github.com/gyf841010/infra/logging"
+	. "github.com/gyf841010/pz-infra/logging"
+	"github.com/gyf841010/pz-infra/tests/base"
 	. "github.com/smartystreets/goconvey/convey"
 	"image"
 	"image/png"
@@ -11,7 +12,6 @@ import (
 	"path"
 	"runtime"
 	"testing"
-	"github.com/gyf841010/infra/tests/base"
 )
 
 func prepare() {

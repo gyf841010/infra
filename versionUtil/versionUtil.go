@@ -1,7 +1,7 @@
 package versionUtil
 
 import (
-	"github.com/gyf841010/infra/timeUtil"
+	"github.com/gyf841010/pz-infra/timeUtil"
 )
 
 // Util to Generate a New Version Code
