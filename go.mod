@@ -38,6 +38,5 @@ require (
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
-	gopkg.in/olivere/elastic.v3 v3.0.75
-	gopkg.in/olivere/elastic.v5 v5.0.86 // indirect
+	gopkg.in/olivere/elastic.v5 v5.0.86
 )
