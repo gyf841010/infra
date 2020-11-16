@@ -3,7 +3,6 @@ module github.com/gyf841010/pz-infra
 go 1.15
 
 require (
-	github.com/NaySoftware/go-fcm v0.0.0-20190516140123-808e978ddcd2
 	github.com/Unknwon/goconfig v0.0.0-20200908083735-df7de6a44db8 // indirect
 	github.com/astaxie/beego v1.12.3
 	github.com/aws/aws-sdk-go v1.35.27
