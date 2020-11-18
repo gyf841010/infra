@@ -4,8 +4,10 @@ go 1.15
 
 require (
 	github.com/Unknwon/goconfig v0.0.0-20200908083735-df7de6a44db8 // indirect
+	github.com/aliyun/aliyun-oss-go-sdk v2.1.4+incompatible // indirect
 	github.com/astaxie/beego v1.12.3
 	github.com/aws/aws-sdk-go v1.35.27
+	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/beego/i18n v0.0.0-20161101132742-e9308947f407
 	github.com/bluele/slack v0.0.0-20180528010058-b4b4d354a079
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect

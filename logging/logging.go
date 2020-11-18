@@ -14,8 +14,8 @@ import (
 )
 
 const (
-	DEFAULT_COMMON_LOG_PATH = "../log/common.log"
-	DEFAULT_ERROR_LOG_PATH  = "../log/error.log"
+	DEFAULT_COMMON_LOG_PATH = "./log/common.log"
+	DEFAULT_ERROR_LOG_PATH  = "./log/error.log"
 )
 
 // Provider is the interface that must be implemented by a logger provider.
