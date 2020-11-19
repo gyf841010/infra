@@ -13,10 +13,8 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-const (
-	DEFAULT_COMMON_LOG_PATH = "./log/common.log"
-	DEFAULT_ERROR_LOG_PATH  = "./log/error.log"
-)
+var defaultCommonLogPath = "./log/common.log"
+var defaultErrorLogPath = "./log/error.log"
 
 // Provider is the interface that must be implemented by a logger provider.
 type LogProvider interface {
@@ -71,8 +69,8 @@ func GetLogger(name string, option interface{}) (Logger, error) {
 func InitLogger(componentName string) Logger {
 	initProvider()
 	var hooks []logrus.Hook
-	rollingHook := rolling.NewWithLevelPaths(DEFAULT_COMMON_LOG_PATH, rolling.LevelPaths{
-		logrus.ErrorLevel: DEFAULT_ERROR_LOG_PATH,
+	rollingHook := rolling.NewWithLevelPaths(defaultCommonLogPath, rolling.LevelPaths{
+		logrus.ErrorLevel: defaultErrorLogPath,
 	})
 	hooks = append(hooks, rollingHook)
 	if fluentdHook := fluentd.BuildFluentdHook(componentName); fluentdHook != nil {
@@ -100,4 +98,10 @@ func initProvider() {
 	registerProviderOnce.Do(func() {
 		Register(Logrus, &LogrusProvider{})
 	})
+	if beego.AppConfig.String("logger.defaultCommonLogPath") != "" {
+		defaultCommonLogPath = beego.AppConfig.String("logger.defaultCommonLogPath")
+	}
+	if beego.AppConfig.String("logger.defaultCommonLogPath") != "" {
+		defaultErrorLogPath = beego.AppConfig.String("logger.defaultErrorLogPath")
+	}
 }
