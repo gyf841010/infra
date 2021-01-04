@@ -4,10 +4,8 @@ go 1.15
 
 require (
 	github.com/Unknwon/goconfig v0.0.0-20200908083735-df7de6a44db8 // indirect
-	github.com/aliyun/aliyun-oss-go-sdk v2.1.4+incompatible // indirect
 	github.com/astaxie/beego v1.12.3
 	github.com/aws/aws-sdk-go v1.35.27
-	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/beego/i18n v0.0.0-20161101132742-e9308947f407
 	github.com/bluele/slack v0.0.0-20180528010058-b4b4d354a079
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
@@ -34,6 +32,7 @@ require (
 	github.com/tinylib/msgp v1.1.4 // indirect
 	github.com/twpayne/go-polyline v1.0.1
 	github.com/ziutek/mymysql v1.5.4
+	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
